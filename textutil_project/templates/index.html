@@ -1,0 +1,25 @@
+<html>
+<head> 
+<title>
+  Index page of django app
+</title>
+</head>
+<body>
+
+<h3> Enter your text... </h3>
+<form action='/analyze' method='get'>
+
+<textarea name='text' style='margin: 0px; width: 623px; height: 192px;'> </textarea>
+<br>
+<input type='checkbox' name='removepuch'>
+<button  type='submit' > Analyze text </button>
+</form>
+
+
+
+
+
+{% comment %} my name is <b>{{ name }}</b>  and my age is <b>{{ age }} </b> {% endcomment %}
+
+</body>
+</html>
